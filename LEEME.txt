@@ -1,0 +1,10 @@
+MAHA.BABYS — carritos y conversación corregidos
+
+1. Reemplazá el index.html de GitHub por el de este ZIP.
+2. En Supabase > SQL Editor ejecutá TODO el archivo:
+   Maha_babys_admin_chat_reparacion.sql
+3. Ese SQL vuelve a dar acceso al administrador a todos los carritos y conversaciones y crea una RPC segura para cargarlos.
+4. No cambia productos, precios ni stock.
+5. En la tienda, dentro de Carrito, aparece “Comenzar conversación con Maha.babys”.
+6. En Administración, cada carrito tiene “Ver productos e imágenes” y “Comenzar conversación”.
+7. Probá la tienda desde la URL de GitHub Pages (https://...), no desde file://.
